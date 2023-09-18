@@ -1,38 +1,67 @@
-.App {
+.App{
+    background-color: rgba(23, 23, 25, 0.914);
+}
+ h1{
+  background: #1930ff87;
+  color: aliceblue;
+  margin: 0px;
   text-align: center;
-}
+ }
+ .Data{
+  background-color: #c5c2c2ee;
+  border: 2px solid rgb(59, 56, 56);
+  text-align: center;
+  font-weight: bold;
+  width: 200px;
+  height: 250px;
+  margin-bottom: 20px;
+  
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+ }
+ .main{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+  justify-content:space-between;
+  flex-wrap: wrap;
+  padding: 10px;
+  
+ }
+ .img{
+    width: 200px;
+    height: 150px;
+ }
+ button{
+    background: #5b4cbf;
+    border-radius: 5px;
+    color: aliceblue;
+    width: 200px;
+    height: 50px;
+    margin-left: 5px;   
+ }
+ .countbox{
+     display: flex;
+     justify-content: center;
+     padding: 10px;
+ }
+ .counter{
+    border: 5px solid white;
+    display: block;
+    border-radius: 50%;
+    text-align: center;
+    margin-left: 45%;
+    margin-right: 45%;
+ }
+ .comp{
+   background: #3674d7;
+   padding: 55px;
+   margin: 5px;
+ }
+ .compa{
+   background: #7941aa;
+   padding: 55px;
+   margin: 5px;
+ }
+ .compb{
+   background: #10a4e8;
+   padding: 55px;
+   margin: 5px;
+ }
